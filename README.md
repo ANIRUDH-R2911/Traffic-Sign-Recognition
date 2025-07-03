@@ -48,14 +48,6 @@ An end-to-end deep learning solution for classifying German traffic signs using 
                       └─────────────────────┘
 ```
 
-## Example GUI
-
-Here’s a preview of the traffic sign recognition GUI built using Tkinter. Users can upload an image of a traffic sign, and the model will classify it in real-time with high accuracy.
-
-<p align="center">
-  <img src="gui_demo.png" alt="Traffic Sign GUI" width="600"/>
-</p>
-
 
 ## Training Summary
 
@@ -68,6 +60,30 @@ Here’s a preview of the traffic sign recognition GUI built using Tkinter. User
   - Rotation, Zoom, Width/Height Shift, Shear
 - **Best Validation Accuracy**: **99.95%**
 - **External Test Accuracy**: **98.60%**
+
+
+## Training Performance
+
+### Accuracy
+
+<p align="center">
+  <img src="TSR_Accuracy.png" alt="Training Accuracy Graph" width="600"/>
+</p>
+
+### Loss
+
+<p align="center">
+  <img src="TSR_Loss.png" alt="Training Loss Graph" width="600"/>
+</p>
+
+
+## Example GUI
+
+Here’s a preview of the traffic sign recognition GUI built using Tkinter. Users can upload an image of a traffic sign, and the model will classify it in real-time with high accuracy.
+
+<p align="center">
+  <img src="TSR_GUI_OUTPUT.png" alt="Traffic Sign GUI" width="600"/>
+</p>
 
 
 ## Future Enhancements
